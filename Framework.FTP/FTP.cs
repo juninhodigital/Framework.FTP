@@ -9,7 +9,7 @@ namespace Framework.FTP
     /// <summary>
     /// Class that handles File Tranfer Protocol (FTP) operations
     /// </summary>
-    public sealed class FTP : IDisposable
+    public sealed class FTP : IFTP, IDisposable
     {
         #region| Fields |  
 
